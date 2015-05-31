@@ -1,0 +1,64 @@
+16:03:43 <@root> Message from unknown participant JIRA: 
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>  
+16:03:43 <@root>   <img 
+                 src="https://somecompany.atlassian.net/images/16jira.png" 
+                 height="16" width="16" />   <a 
+href="https://somecompany.atlassian.net/browse/FN-2169"><b>SC-1000 : Some 
+                 kind of issue text that is kind of long and describes the 
+                 problem that we saw during testing.</b></a> Created by <a 
+href="https://somecompany.atlassian.net/secure/ViewProfile.jspa?name=PersonN">Person Name</a><br />
+16:03:43 >> OpenURL 2
+16:03:43 <@root> <span style="color: dimgrey;">Type:</span>  <img 
+src="https://somecompany.atlassian.net/images/icons/issuetypes/bug.png" 
+                 height="16" width="16" /> Bug  
+16:03:43 >> OpenURL 7
+16:03:43 <@root>     <span style="color: dimgrey;">Priority:</span>      <img 
+                 src="http://pixshark.com/white-box-icon.htm" height="16" 
+                 width="16" />
+16:03:43 <@root>  Not prioritized  
+16:03:43 <@root> <span style="color: dimgrey;">Status:</span>          
+16:03:43 <@root>     <span class="aui-lozenge aui-lozenge-complete">
+16:03:43 <@root>         To Do
+16:03:43 <@root>     </span>
+16:03:43 <@root> <br />
