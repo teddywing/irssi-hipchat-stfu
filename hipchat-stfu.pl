@@ -29,7 +29,7 @@ sub prettify_hipchat {
 	
 	# Construct start message
 	if ($link) {
-		$input =~ s/ Created by/\n$link\nCreated by/g;
+		$input =~ s/Created by (.+)$/($1) ($link)/g;
 	}
 	
 	return $input;
