@@ -40,11 +40,13 @@ sub hipchat_stfu {
 	
 	if ($server->{'chatnet'} eq 'Bitlbee' &&
 		$nick eq 'root') {
-		if ($text =~ /^\s*$/) {
+		my $msg = prettify_hipchat($text);
+		
+		if ($msg eq '') {
 			signal_stop();
 		}
 		else {
-			signal_continue($server, prettify_hipchat($text), $nick, $address, $target);
+			signal_continue($server, $msg, $nick, $address, $target);
 		}
 	}
 };
