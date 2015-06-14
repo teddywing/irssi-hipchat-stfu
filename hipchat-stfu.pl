@@ -13,7 +13,7 @@ $VERSION = '1.00';
 	license     => 'MIT',
 );
 
-sub test {
+sub hipchat_stfu {
 	my ($server, $text, $nick) = @_;
 	
 	my $filename = 'hipchat-stfu-output.txt';
@@ -28,5 +28,5 @@ sub test {
 };
 
 signal_add {
-	'message public' => \&test,
+	'message public' => \&hipchat_stfu,
 };
