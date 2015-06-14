@@ -21,6 +21,9 @@ sub prettify_hipchat {
 	# Trim whitespace
 	$input =~ s/^(\s| )+|(\s| )+$//g;
 	
+	# Trim whitespace between words
+	$input =~ s/(\s| ){2,}/ /g;
+	
 	return $input;
 };
 
