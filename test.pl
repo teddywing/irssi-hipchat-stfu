@@ -10,6 +10,7 @@ SC-1000 : Some kind of issue text that is kind of long and describes the problem
 https://somecompany.atlassian.net/browse/SC-2169
 Created by Person Name
 END_MESSAGE
+chomp($title_message);
 
 is(prettify_hipchat('  <img src="https://somecompany.atlassian.net/images/16jira.png" height="16" width="16" />   <a href="https://somecompany.atlassian.net/browse/SC-2169"><b>SC-1000 : Some kind of issue text that is kind of long and describes the problem that we saw during testing.</b></a> Created by <a href="https://somecompany.atlassian.net/secure/ViewProfile.jspa?name=PersonN">Person Name</a><br />'),
 	$title_message,

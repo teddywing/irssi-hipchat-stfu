@@ -15,6 +15,9 @@ $VERSION = '1.00';
 sub prettify_hipchat {
 	my ($input) = @_;
 	
+	# Grab browse link
+	my ($link) = $input =~ /"([^"]+\/browse\/[^"]+)"/;
+	
 	# Remove HTML tags
 	$input =~ s/<.+?>//g;
 	
@@ -23,6 +26,11 @@ sub prettify_hipchat {
 	
 	# Trim whitespace between words
 	$input =~ s/(\s| ){2,}/ /g;
+	
+	# Construct start message
+	if ($link) {
+		$input =~ s/ Created by/\n$link\nCreated by/g;
+	}
 	
 	return $input;
 };
