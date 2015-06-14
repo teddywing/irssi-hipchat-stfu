@@ -12,6 +12,9 @@ $VERSION = '1.00';
 	license     => 'MIT',
 );
 
+sub prettify_hipchat {
+};
+
 sub hipchat_stfu {
 	my ($server, $text, $nick) = @_;
 	
