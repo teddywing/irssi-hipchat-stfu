@@ -13,14 +13,16 @@ $VERSION = '1.00';
 );
 
 sub test {
-	my ($data, $server, $window_item) = @_;
-	return unless $window_item;
-	my $filename = 'hipchat-stfu-output.txt';
+	my ($server, $text, $nick) = @_;
 	
-	open(my $fh, '>', $filename) or die;
-	print $fh $data;
-	print $fh '-------###-------';
+	my $filename = 'hipchat-stfu-output.txt';
+	open(my $fh, '>>', $filename) or die;
 	print $fh $server;
+	print $fh "\t";
+	print $fh $text;
+	print $fh "\t";
+	print $fh $nick;
+	print $fh "\n";
 	close $fh;
 };
 
