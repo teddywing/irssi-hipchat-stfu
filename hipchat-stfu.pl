@@ -1,7 +1,8 @@
 use strict;
 use vars qw($VERSION %IRSSI);
 
-use Irssi qw(signal_add);
+use Irssi qw(signal_add signal_stop);
+use Data::Dumper;
 
 $VERSION = '1.00';
 %IRSSI = (
@@ -17,7 +18,7 @@ sub test {
 	
 	my $filename = 'hipchat-stfu-output.txt';
 	open(my $fh, '>>', $filename) or die;
-	print $fh $server;
+	print $fh Dumper($server);
 	print $fh "\t";
 	print $fh $text;
 	print $fh "\t";
