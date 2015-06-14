@@ -22,7 +22,7 @@ is(prettify_hipchat('    <span style="color: dimgrey;">Priority:</span>      <i
 	'Priority label');
 is(prettify_hipchat(' Not prioritized  '), 'Not prioritized', 'Priority tag body');
 is(prettify_hipchat('<span style="color: dimgrey;">Status:</span>          '),
-	'',
+	'Status:',
 	'Status label');
 is(prettify_hipchat('    <span class="aui-lozenge aui-lozenge-complete">'),
 	'',
