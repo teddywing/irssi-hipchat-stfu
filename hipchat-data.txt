@@ -44,7 +44,7 @@
 16:03:43 <@root>   <img 
                  src="https://somecompany.atlassian.net/images/16jira.png" 
                  height="16" width="16" />   <a 
-href="https://somecompany.atlassian.net/browse/FN-2169"><b>SC-1000 : Some 
+href="https://somecompany.atlassian.net/browse/SC-1000"><b>SC-1000 : Some 
                  kind of issue text that is kind of long and describes the 
                  problem that we saw during testing.</b></a> Created by <a 
 href="https://somecompany.atlassian.net/secure/ViewProfile.jspa?name=PersonN">Person Name</a><br />
