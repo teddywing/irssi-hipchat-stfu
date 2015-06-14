@@ -2,7 +2,6 @@ use strict;
 use vars qw($VERSION %IRSSI);
 
 use Irssi qw(signal_add signal_stop);
-use Data::Dumper;
 
 $VERSION = '1.00';
 %IRSSI = (
