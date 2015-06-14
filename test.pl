@@ -3,6 +3,7 @@
 use strict;
 
 use Test::More tests => 9;
+require 'prettify_hipchat.pl';
 
 my $title_message = <<'END_MESSAGE';
 SC-1000 : Some kind of issue text that is kind of long and describes the problem that we saw during testing.
