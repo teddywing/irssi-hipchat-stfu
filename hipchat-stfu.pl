@@ -15,7 +15,12 @@ $VERSION = '1.00';
 sub prettify_hipchat {
 	my ($input) = @_;
 	
+	# Remove HTML tags
+	$input =~ s/<.+?>//g;
+	
+	# Trim whitespace
 	$input =~ s/^(\s| )+|(\s| )+$//g;
+	
 	return $input;
 };
 
