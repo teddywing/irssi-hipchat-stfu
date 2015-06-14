@@ -18,14 +18,7 @@ sub hipchat_stfu {
 	
 	if ($server->{'chatnet'} eq 'Bitlbee' &&
 		$nick eq 'root') {
-		open(my $fh, '>>', 'hipchatyeehaw.txt') or die;
-		# print $fh 'yeehaw' if ($text eq '');
-		# print $fh 'boohoo' if (!defined($text));
-		print $fh 'booya' if ($text =~ /^\s*$/);
-		# print $fh $text . "\n";
-		close $fh;
-		
-		if ($text eq '') {
+		if ($text =~ /^\s*$/) {
 			signal_stop();
 		}
 		else {
