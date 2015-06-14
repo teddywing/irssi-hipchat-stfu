@@ -13,6 +13,10 @@ $VERSION = '1.00';
 );
 
 sub prettify_hipchat {
+	my ($input) = @_;
+	
+	$input =~ s/^\s+|\s+$//g;
+	return $input;
 };
 
 sub hipchat_stfu {
