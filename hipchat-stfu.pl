@@ -1,7 +1,7 @@
 use strict;
 use vars qw($VERSION %IRSSI);
 
-use Irssi qw(signal_add signal_stop);
+use Irssi qw(signal_add signal_stop signal_continue);
 
 $VERSION = '1.00';
 %IRSSI = (
@@ -36,7 +36,7 @@ sub prettify_hipchat {
 };
 
 sub hipchat_stfu {
-	my ($server, $text, $nick) = @_;
+	my ($server, $text, $nick, $address, $target) = @_;
 	
 	if ($server->{'chatnet'} eq 'Bitlbee' &&
 		$nick eq 'root') {
@@ -44,7 +44,7 @@ sub hipchat_stfu {
 			signal_stop();
 		}
 		else {
-			# Modify the text
+			signal_continue($server, prettify_hipchat($text), $nick, $address, $target);
 		}
 	}
 };
