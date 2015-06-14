@@ -16,16 +16,6 @@ $VERSION = '1.00';
 sub hipchat_stfu {
 	my ($server, $text, $nick) = @_;
 	
-	# my $filename = 'hipchat-stfu-output.txt';
-	# open(my $fh, '>>', $filename) or die;
-	# print $fh Dumper($server);
-	# print $fh "\t";
-	# print $fh $text;
-	# print $fh "\t";
-	# print $fh $nick;
-	# print $fh "\n";
-	# close $fh;
-	
 	if ($server->{'chatnet'} eq 'Bitlbee' &&
 		$nick eq 'root') {
 		open(my $fh, '>>', 'hipchatyeehaw.txt') or die;
