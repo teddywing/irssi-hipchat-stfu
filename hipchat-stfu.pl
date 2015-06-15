@@ -27,6 +27,12 @@ sub prettify_hipchat {
 	# Trim whitespace between words
 	$input =~ s/(\s| ){2,}/ /g;
 	
+	# Remove Priority
+	$input =~ s/Priority://g;
+	
+	# Remove Status
+	$input =~ s/Status://g;
+	
 	# Construct start message
 	if ($link) {
 		$input =~ s/Created by (.+)$/($1) ($link)/g;
