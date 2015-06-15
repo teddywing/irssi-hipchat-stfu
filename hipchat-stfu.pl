@@ -57,6 +57,4 @@ sub hipchat_stfu {
 	}
 };
 
-signal_add {
-	'message public' => \&hipchat_stfu,
-};
+signal_add('message public', \&hipchat_stfu);
