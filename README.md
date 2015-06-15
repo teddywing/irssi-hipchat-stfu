@@ -76,9 +76,8 @@ and finally raw HTML describing the issue:
 Installing this plugin transforms the prior output into this:
 
 	20:08:24 <@root> Message from unknown participant JIRA:
-	20:08:24 <@root> FN-1909 : Buyer favorites seller – front end kind of issue text
-	                 that is kind of long and describes the problem that we saw
-	                 during testing. (Person Name)
+	20:08:24 <@root> SC-1000 : Some kind of issue text that is kind of long and
+	                 describes the problem that we saw during testing. (Person Name)
 	                 (https://somecompany.atlassian.net/browse/SC-1000)
 	20:08:24 <@root> Type: Bug
 	20:08:24 <@root> Not prioritized
